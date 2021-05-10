@@ -114,7 +114,7 @@ This section will contain all the endpoints with their response examples to make
 
 - Return: return list of all the available actors.
 
-- Sample Request: ```curl https://sohaibcapstone.herokuapp.com/actors```
+- Sample Request: ```curl https://meshal-capstone.herokuapp.com/actors```
 
 - Arguments: None
 
@@ -142,7 +142,7 @@ This section will contain all the endpoints with their response examples to make
 
 - Return: return list of all the available movies.
 
-- Sample Request: ```curl https://sohaibcapstone.herokuapp.com/movies```
+- Sample Request: ```curl https://meshal-capstone.herokuapp.com/movies```
 
 - Arguments: None
 
@@ -170,7 +170,7 @@ This section will contain all the endpoints with their response examples to make
 - Return: 
     - the deleted actor ID and result of success state.
 
-- Sample Request: ```curl -X "DELETE" https://sohaibcapstone.herokuapp.com/actors/2```
+- Sample Request: ```curl -X "DELETE" https://meshal-capstone.herokuapp.com/actors/2```
 
 - Arguments: 
     - it take the id of the actor in the URL after the ```actors/```
@@ -188,7 +188,7 @@ This section will contain all the endpoints with their response examples to make
 - Return: 
     - the deleted movie ID and result of success state.
 
-- Sample Request: ```curl -X "DELETE" https://sohaibcapstone.herokuapp.com/movies/5```
+- Sample Request: ```curl -X "DELETE" https://meshal-capstone.herokuapp.com/movies/5```
 
 - Arguments: 
     - it take the id of the movie in the URL after the ```movies/```
@@ -208,7 +208,7 @@ This section will contain all the endpoints with their response examples to make
     - the created actor object.
 
 - Sample Request: 
-    ```curl -d '{"name": "Sohaib Bakri", "age": 21, "gender": "male"}' -H "Content-Type: application/json" -H "Authorization: Bearer <TOKEN>" -X "POST" https://sohaibcapstone.herokuapp.com/actors```
+    ```curl -d '{"name": "Sohaib Bakri", "age": 21, "gender": "male"}' -H "Content-Type: application/json" -H "Authorization: Bearer <TOKEN>" -X "POST" https://meshal-capstone.herokuapp.com/actors```
 
 - Arguments: 
     - None
@@ -237,7 +237,7 @@ This section will contain all the endpoints with their response examples to make
     - the created movie object.
 
 - Sample Request: 
-    ```curl -d '{"title": "Bad Bunny"}' -H "Content-Type: application/json" -H "Authorization: Bearer <TOKEN>" -X "POST" https://sohaibcapstone.herokuapp.com/movies```
+    ```curl -d '{"title": "Bad Bunny"}' -H "Content-Type: application/json" -H "Authorization: Bearer <TOKEN>" -X "POST" https://meshal-capstone.herokuapp.com/movies```
 
 - Arguments: 
     - None
@@ -265,7 +265,7 @@ This section will contain all the endpoints with their response examples to make
     - the modified actor object.
 
 - Sample Request: 
-    ```curl -d '{"name": "sohaib bkr", "age": 17, "gender": "male"}' -H "Content-Type: application/json" -H "Authorization: Bearer <TOKEN>" -X "PATCH" https://sohaibcapstone.herokuapp.com/actors/15```
+    ```curl -d '{"name": "sohaib bkr", "age": 17, "gender": "male"}' -H "Content-Type: application/json" -H "Authorization: Bearer <TOKEN>" -X "PATCH" https://meshal-capstone.herokuapp.com/actors/15```
 
 - Arguments: 
     - the ID of the actor that need to modified.
@@ -294,7 +294,7 @@ This section will contain all the endpoints with their response examples to make
     - the modified movie object.
 
 - Sample Request: 
-    ```curl -d '{"title": "bad punny"}' -H "Content-Type: application/json" -H "Authorization: Bearer <TOKEN>" -X "PATCH" https://sohaibcapstone.herokuapp.com/movies/87```
+    ```curl -d '{"title": "bad punny"}' -H "Content-Type: application/json" -H "Authorization: Bearer <TOKEN>" -X "PATCH" https://meshal-capstone.herokuapp.com/movies/87```
 
 - Arguments: 
     - the ID of the movie that need to modified.
